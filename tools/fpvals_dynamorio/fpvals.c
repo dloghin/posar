@@ -390,13 +390,13 @@ event_app_instruction(void *drcontext, void *tag, instrlist_t *bb, instr_t *inst
 		for (int j = 0; j < srcs; j++)
 		{
 			opnd_t src = instr_get_src(instr, j);
-			if (opnd_is_reg(src))
+			if (n_regs < 3 && opnd_is_reg(src) && reg_is_pointer_sized(opnd_get_reg(src)))
 			{
 				found = true;
 				reg_ids[n_regs] = opnd_get_reg(src);
 				n_regs++;
 			}
-			if (opnd_is_memory_reference(src))
+			if (n_mems < 3 && opnd_is_memory_reference(src) && opnd_get_addr(src) != NULL)
 			{
 				found = true;
 				mem_ptrs[n_mems] = opnd_get_addr(src);
