@@ -6,7 +6,7 @@ POSAR will be presented:
 
 - at the 39th IEEE International Conference on Computer Design ([ICCD '21](https://www.iccd-conf.com/Home.html)) under the title *"The Accuracy and Efficiency of Posit Arithmetic"*
 - at the Design Automation Conference ([DAC '21](https://www.dac.com/)) as a Work-in-Progress under the title *"POSAR: A Flexible Posit Arithmetic Unit for RISC-V"*
-- as an extended paper on arxiv.
+- as an [extended paper](https://arxiv.org/submit/3933182/view) on arxiv.
 
 ## POSAR Source Code
 
