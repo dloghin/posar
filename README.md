@@ -4,9 +4,9 @@ This README will guide you through the building process of POSAR - a flexible PO
 
 POSAR will be presented:
 
-- at the 39th IEEE International Conference on Computer Design ([ICCD '21](https://www.iccd-conf.com/Home.html)) under the title *"The Accuracy and Efficiency of Posit Arithmetic"*
-- at the Design Automation Conference ([DAC '21](https://www.dac.com/)) as a Work-in-Progress under the title *"POSAR: A Flexible Posit Arithmetic Unit for RISC-V"*
-- as an [extended paper](https://arxiv.org/submit/3933182/view) on arxiv.
+- at the 39th IEEE International Conference on Computer Design ([ICCD '21](https://www.iccd-conf.com/Home.html)) under the title *"The Accuracy and Efficiency of Posit Arithmetic"* ([Video Presentation](https://www.youtube.com/watch?v=cSNhUBb5_8s))
+- at the Design Automation Conference ([DAC '21](https://www.dac.com/)) as a Work-in-Progress under the title *"POSAR: A Flexible Posit Arithmetic Unit for RISC-V"* ([Poster](https://www.comp.nus.edu.sg/~dumitrel/files/dac2021.pdf))
+- as an [extended paper](https://arxiv.org/abs/2109.08225) on arxiv.
 
 ## POSAR Source Code
 
